@@ -1,0 +1,9 @@
+[
+  {"name": "ventana",              "type": "TIMESTAMP", "mode": "REQUIRED", "description": "Inicio de la ventana de 1 minuto"},
+  {"name": "sensor_id",            "type": "STRING",    "mode": "REQUIRED", "description": "Identificador del sensor"},
+  {"name": "temperatura_promedio", "type": "FLOAT",     "mode": "NULLABLE", "description": "Promedio móvil de temperatura (1 min)"},
+  {"name": "humedad_promedio",     "type": "FLOAT",     "mode": "NULLABLE", "description": "Promedio móvil de humedad (1 min)"},
+  {"name": "radiacion_promedio",   "type": "FLOAT",     "mode": "NULLABLE", "description": "Promedio móvil de radiación (1 min)"},
+  {"name": "n_lecturas",           "type": "INTEGER",   "mode": "NULLABLE", "description": "Lecturas válidas agregadas en la ventana"},
+  {"name": "n_outliers",           "type": "INTEGER",   "mode": "NULLABLE", "description": "Outliers detectados en la ventana"}
+]

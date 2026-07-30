@@ -1,0 +1,10 @@
+[
+  {"name": "timestamp_evento",  "type": "TIMESTAMP", "mode": "REQUIRED", "description": "Instante de la lectura del sensor (UTC)"},
+  {"name": "sensor_id",         "type": "STRING",    "mode": "REQUIRED", "description": "Identificador del sensor"},
+  {"name": "temperatura",       "type": "FLOAT",     "mode": "NULLABLE", "description": "Temperatura ambiental (°C)"},
+  {"name": "humedad",           "type": "FLOAT",     "mode": "NULLABLE", "description": "Humedad relativa (%)"},
+  {"name": "radiacion",         "type": "FLOAT",     "mode": "NULLABLE", "description": "Radiación solar (W/m2)"},
+  {"name": "is_outlier",        "type": "BOOLEAN",   "mode": "NULLABLE", "description": "True si la lectura fue marcada como atípica"},
+  {"name": "outlier_motivo",    "type": "STRING",    "mode": "NULLABLE", "description": "Variable(s) que dispararon la anomalía"},
+  {"name": "timestamp_ingesta", "type": "TIMESTAMP", "mode": "NULLABLE", "description": "Instante de procesamiento en el pipeline"}
+]
