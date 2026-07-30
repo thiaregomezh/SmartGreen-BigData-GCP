@@ -48,7 +48,7 @@ git clone https://github.com/thiaregomezh/SmartGreen-BigData-GCP.git
 
 Instalar las dependencias necesarias en cada módulo utilizando su correspondiente archivo `requirements.txt`.
 
-## 🎓 Contexto académico
+## Contexto académico
 
 Proyecto desarrollado durante la carrera de **Ingeniería en Informática** en **Duoc UC**, aplicando conceptos de procesamiento de datos en tiempo real, Data Engineering y computación en la nube.
 
